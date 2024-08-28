@@ -30,4 +30,3 @@ app.on('window-all-closed', () => {
   }
 })
 
-require('update-electron-app')()
