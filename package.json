@@ -1,6 +1,6 @@
 {
   "name": "nebula",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ノベルゲームeditor",
   "main": "main.js",
   "scripts": {
@@ -14,8 +14,7 @@
   "author": "MinnteliaGames",
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1",
-    "update-electron-app": "^3.0.0"
+    "electron-squirrel-startup": "^1.0.1"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.4.0",
@@ -31,7 +30,7 @@
   },
   "build": {
     "win": {
-      "icon": "path_to_app_icon.ico"
+      "icon": "./art/icon.ico"
     }
   }
 }
