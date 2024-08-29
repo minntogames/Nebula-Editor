@@ -47,7 +47,7 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'minntelia',
+          owner: 'minntogames',
           name: 'Nebula-Editor'
         },
         prerelease: false,
