@@ -41,4 +41,18 @@ module.exports = {
       [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'minntelia',
+          name: 'Nebula-Editor'
+        },
+        prerelease: false,
+        draft: true,
+        authToken: "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"
+      }
+    }
+  ]
 };
