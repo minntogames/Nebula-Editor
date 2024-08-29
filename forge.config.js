@@ -51,8 +51,7 @@ module.exports = {
           name: 'Nebula-Editor'
         },
         prerelease: false,
-        draft: true,
-        authToken: process.env.GITHUB_TOKEN
+        draft: true
       }
     }
   ]
