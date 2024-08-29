@@ -1,7 +1,7 @@
 {
   "name": "nebula",
   "version": "0.0.3",
-  "description": "ノベルゲームeditor",
+  "description": "game editor",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -14,6 +14,7 @@
   "author": "MinnteliaGames",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "electron-squirrel-startup": "^1.0.1",
     "update-electron-app": "^3.0.0"
   },
